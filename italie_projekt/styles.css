@@ -3,7 +3,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .bg-img {
   /* The image used */
-  background-image: url("/image/nav_photo.jpg");
+  background-image: url("image/nav_photo.jpg");
 
   min-height: 800px;
 
@@ -14,4 +14,71 @@ body {font-family: Arial, Helvetica, sans-serif;}
   
   /* Needed to position the navbar */
   position: relative;
+}
+h1 {
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 800%;
+  }
+.zelena {
+    background-color: #009249;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+  }
+.cervena {
+    background-color: #CE2B37;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+.cervena_podnapis {
+    color: #CE2B37;
+    text-align: center;
+    font-size: 200%;
+}
+.cerveny_text{
+    font-size: 150%;
+    text-align: center;
+}
+
+table.unstyledTable {
+    height: 200px;
+  }
+  table.unstyledTable td, table.unstyledTable th {
+    border: 1px solid #AAAAAA;
+    padding: 4px 2px;
+  }
+  table.unstyledTable thead {
+    background: #DDDDDD;
+  }
+  table.unstyledTable thead th {
+    font-weight: normal;
+    border-left: 4px solid #D0E4F5;
+  }
+  table.unstyledTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.unstyledTable tfoot {
+    font-weight: bold;
+    border-top: 0px solid #444444;
+  }
+.cervena_foot {
+    background-color: red;
+  }
+.bila_foot {
+    background-color: white;
+    text-align: center;
+}
+.zelena_foot {
+    background-color: green;
 }
